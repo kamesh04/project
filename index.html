@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <title>FittCube Gym</title>
+
+    <style>
+        body {
+            font-family: 'Baloo Bhaina 2', cursive;
+
+            margin: 0px;
+            padding: 0px;
+            background: url('img/pexels-photo-841130.jpeg')no-repeat;
+            background-size: cover;
+            color: orangered;
+        }
+
+        .btn {
+            margin: 0px 9px;
+            padding: 2px;
+            display: inline;
+            background-color: rgb(32, 32, 32);
+            color: orangered;
+            border: 2px solid rgb(59, 59, 97);
+            border-radius: 10px;
+            font-size: 15px;
+            cursor: pointer;
+
+        }
+
+        .btn:hover {
+            background-color: gray;
+        }
+
+        .left {
+            border: 2px solid red;
+            display: inline-block;
+            position: absolute;
+            left: 30px;
+            top: 10px;
+            line-height: 22px;
+            font-size: 17px;
+
+
+
+        }
+
+        .left img {
+            width: 50px;
+            /* background-color: rgb(31, 32, 32); */
+            filter: invert(100%);
+        }
+
+        .Mid {
+            border: 2px solid green;
+            position: relative;
+            margin: auto;
+            width: 40%;
+            top: 10px;
+            display: block;
+
+        }
+
+        .right {
+            border: 2px solid purple;
+            position: absolute;
+            /* display:inline-block;  */
+            right: 12px;
+            top: 30px;
+            font-style: bold;
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+
+            list-style: none;
+            display: inline-block;
+            padding: 2px;
+            margin: auto;
+            font-size: 20px;
+        }
+
+        .navbar li a {
+            color: orangered;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: rgb(26, 252, 64);
+        }
+
+        .container {
+            border: 2px solid white;
+            padding: 20px 1px;
+            margin: 80px 54px;
+            width: 443px;
+            border-radius: 10px;
+        }
+        .container h1{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/04012019-25.jpg" alt="">
+            <div>FittCube Gym</div>
+        </div>
+        <!-- <div>FittCube Gym</div> -->
+        <div class="Mid">
+            <ul class="navbar">
+                <li><a href="#" class="active"> Home</a></li>
+                <li><a href="#">AboutUs</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">contactUs</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <div class="btn">CallUs</div>
+            <div class="btn">EmailUs</div>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Grab the best price today</h1>
+        <form action="noation.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your phoneNumber">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your Locality">
+            </div>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
