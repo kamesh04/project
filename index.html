@@ -11,7 +11,6 @@
     <style>
         body {
             font-family: 'Baloo Bhaina 2', cursive;
-
             margin: 0px;
             padding: 0px;
             background: url('img/pexels-photo-841130.jpeg')no-repeat;
@@ -20,8 +19,8 @@
         }
 
         .btn {
-            margin: 0px 9px;
-            padding: 2px;
+            margin: 9px 7px;
+            padding: 5px 8px;
             display: inline;
             background-color: rgb(32, 32, 32);
             color: orangered;
@@ -29,15 +28,16 @@
             border-radius: 10px;
             font-size: 15px;
             cursor: pointer;
-
         }
+
+        
 
         .btn:hover {
             background-color: gray;
         }
 
         .left {
-            border: 2px solid red;
+            /* border: 2px solid red; */
             display: inline-block;
             position: absolute;
             left: 30px;
@@ -51,12 +51,12 @@
 
         .left img {
             width: 50px;
-            /* background-color: rgb(31, 32, 32); */
+             background-color: rgb(31, 32, 32); 
             filter: invert(100%);
         }
 
         .Mid {
-            border: 2px solid green;
+            /* border: 2px solid green; */
             position: relative;
             margin: auto;
             width: 40%;
@@ -66,12 +66,13 @@
         }
 
         .right {
-            border: 2px solid purple;
+            /* border: 2px solid purple; */
             position: absolute;
             /* display:inline-block;  */
             right: 12px;
             top: 30px;
             font-style: bold;
+            padding: 8px 5px;
 
         }
 
@@ -104,11 +105,30 @@
             border: 2px solid white;
             padding: 20px 1px;
             margin: 80px 54px;
-            width: 443px;
+            width: 33%;
+            /* height:40%; */
             border-radius: 10px;
         }
-        .container h1{
+
+        .container h1 {
             text-align: center;
+        }
+
+        .form-group input {
+            font-family: 'Baloo Bhaina 2', cursive;
+            text-align: center;
+            display: block;
+            width: 359px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 11px auto;
+            font-size: 19px;
+            border-radius: 6px;
+        }
+        .form-group button{
+            display: block;
+            width:23%
+            
         }
     </style>
 </head>
@@ -149,6 +169,7 @@
             <div class="form-group">
                 <input type="text" name="" placeholder="enter your Locality">
             </div>
+            <button class="btn">Submit</button>
         </form>
     </div>
 
